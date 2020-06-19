@@ -8,6 +8,9 @@
 <!-- versionCode is optional and Android only -->
 
   <name>ninja platformer</name>
+	
+
+<preference name="android-minSdkVersion" value="28" />
 
   <description>
       a ninja game
@@ -16,5 +19,11 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
       awesomedragontest
   </author>
-	<icon scr="icon.png" ></icon> 
+	<icon scr="icon.png" ></icon>
+ <preference name="android-build-tool" value="ant|gradle" />
+  <preference name="android-minSdkVersion" value="28" />
+  <preference name="android-maxSdkVersion" value="28" />
+  <preference name="android-targetSdkVersion" value="28" />
+  <preference name="android-installLocation" value="28" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" /> 
 </widget>
